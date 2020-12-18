@@ -91,9 +91,25 @@ footer {
   vertical-align: top;
 }
 
+.text-box-long {
+    display: inline-block;
+    width: 100%;
+    max-width: 700px;
+    min-height: 100px;
+    text-align: justify;
+    margin: 10px;
+    vertical-align: top;
+  }
+
 .text-box h1 {
   color: #515A5A;
+  text-align: center;
 }
+
+.text-box-long h1 {
+    color: #515A5A;
+    text-align: center;
+  }
 
 .skip {
   display: block;

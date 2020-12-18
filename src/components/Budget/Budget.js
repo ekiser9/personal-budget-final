@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Logout() {
+function BarChart() {
     return <div>Logout</div>;
 }
 
-export default Logout;
+export default BarChart;
