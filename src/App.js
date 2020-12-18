@@ -13,32 +13,32 @@ import Logo from './components/Logo/Logo';
 import Menu from './components/Menu/Menu';
 
 function App() {
-  return (
-    <Router>
-      <Menu />
-      <Logo />
-      <div className="mainContainer">
-        <Switch>
-          <Route path="/dashboard">
-            <Dashboard />
-          </Route>
-          <Route path="/Login">
-            <Login />
-          </Route>
-          <Route path="/Logout">
-            <Logout />
-          </Route>
-          <Route path="/SignUp">
-            <SignUp />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
-      <Footer />
-    </Router>
-  );
+    return (
+        <Router>
+            <Menu />
+            <Logo />
+            <div className="mainContainer">
+                <Switch>
+                    <Route path="/dashboard">
+                        <Dashboard />
+                    </Route>
+                    <Route path="/Login">
+                        <Login />
+                    </Route>
+                    <Route path="/Logout">
+                        <Logout />
+                    </Route>
+                    <Route path="/SignUp">
+                        <SignUp />
+                    </Route>
+                    <Route path="/">
+                        <Home />
+                    </Route>
+                </Switch>
+            </div>
+            <Footer />
+        </Router>
+    );
 }
 
 export default App;
