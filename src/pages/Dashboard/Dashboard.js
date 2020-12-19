@@ -1,7 +1,13 @@
 import React from 'react';
+<<<<<<< HEAD
 import PieChart from '../../components/PieChart/PieChart';
 import BarChart from '../../components/BarChart/BarChart';
 import LineGraph from '../../components/LineGraph/LineGraph';
+=======
+import PieChart from 'C:/Users/Liz/Documents/School/4166NetApps/dev/personal-budget-final/src/components/PieChart/PieChart';
+import BarChart from 'C:/Users/Liz/Documents/School/4166NetApps/dev/personal-budget-final/src/components/BarChart/BarChart';
+import LineGraph from 'C:/Users/Liz/Documents/School/4166NetApps/dev/personal-budget-final/src/components/LineGraph/LineGraph';
+>>>>>>> 0a81dcbfdc0fef6e81cd5af8643c3c0b88cc5001
 
 function Dashboard() {
     return (
